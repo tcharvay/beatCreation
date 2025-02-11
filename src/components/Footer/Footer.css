@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.youtube:hover {
+  color: red;
+}
+
+.instagram:hover {
+  color: #f4057f;
+}
+
+.spotify:hover {
+  color: #1db954;
+}
+
+.soundcloud:hover {
+  color: #ff5500;
+}
+
+.beatport:hover {
+  color: #33ff66;
+}
+
+.footer-text {
+  font-size: 14px;
+}
