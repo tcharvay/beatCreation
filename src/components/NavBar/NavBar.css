@@ -3,7 +3,7 @@
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
 }
 
 .navbar-toggler-icon {
@@ -28,6 +28,17 @@
 }
 
 .navbar-toggler-icon {
-  filter: invert(41%) sepia(99%) saturate(288%) hue-rotate(175deg)
-    brightness(99%) contrast(94%);
+  filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(175deg)
+    brightness(100%) contrast(100%);
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link[aria-current="page"] {
+  color: #00bfff !important;
+  font-weight: bold;
 }

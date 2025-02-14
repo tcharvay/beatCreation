@@ -18,6 +18,7 @@ function NavBar() {
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            href='../Home/Home.jsx'
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -25,17 +26,27 @@ function NavBar() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#">
-                  Home
+                  Mix
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Music Production
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Mastering
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  DJ
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Bio
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -46,22 +57,22 @@ function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown link
+                  Academy
                 </a>
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      Action
+                      Guitar
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Another action
+                      Piano
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Something else here
+                      Music Production - Recording
                     </a>
                   </li>
                 </ul>
