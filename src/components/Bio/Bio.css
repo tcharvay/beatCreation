@@ -1,0 +1,63 @@
+.bio-container {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 100px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio {
+  text-align: justify;
+  max-width: 600px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.bio-photo-vela {
+  max-width: 320px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+}
+
+/* ✅ Responsive para móviles */
+@media (max-width: 768px) {
+  .bio-container {
+    flex-direction: column-reverse; /* Imagen arriba del texto */
+    text-align: center;
+    align-items: center;
+    padding-left: 0; /* Elimina padding a la izquierda */
+    padding-right: 0; /* Elimina padding a la derecha */
+    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-right: 0; /* Elimina el margen derecho */
+  }
+
+  .bio {
+    max-width: 100%; /* Se asegura de que el texto ocupe más espacio */
+    padding: 10px; /* Ajusta el padding en el texto */
+  }
+
+  .bio-photo-vela {
+    max-width: 70%;
+    margin-top: 0;
+  }
+}
+
+/* 📌 Responsive para tabletas (entre 768px y 1024px) */
+@media (max-width: 1024px) {
+  .bio {
+    max-width: 80%;
+    font-size: 14px;
+  }
+
+  .bio-photo-vela {
+    max-width: 280px;
+  }
+}

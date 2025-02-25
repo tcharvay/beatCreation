@@ -1,0 +1,13 @@
+.instagram-feed {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.instagram-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
