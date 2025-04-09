@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+
+import "./Mastering.css";
 
 function Mastering() {
   return (
-    <div>
-        <p>MASTERING</p>
+    <div className="mastering-container">
+      <p>MASTERING</p>
     </div>
-  )
+  );
 }
 
-export default Mastering
+export default Mastering;

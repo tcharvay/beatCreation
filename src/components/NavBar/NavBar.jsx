@@ -7,7 +7,6 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
-
         <Link className="navbar-brand" to="/">
           <img
             className="beat-logo"
@@ -31,22 +30,22 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/mix">
+              <Link className="nav-link" to="/Mix">
                 Mix
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/music-production">
+              <Link className="nav-link" to="/Production">
                 Music Production
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/mastering">
+              <Link className="nav-link" to="/Mastering">
                 Mastering
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/dj">
+              <Link className="nav-link" to="/Dj">
                 DJ
               </Link>
             </li>
