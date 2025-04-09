@@ -10,6 +10,9 @@ import Footer from "./components/Footer/Footer";
 import WhatsAppButton from "./components/WhatsAppBtn/WhatsAppBtn";
 import Production from "./components/Production/Production";
 import Mix from "./components/Mix/Mix";
+import Guitar from "./components/Academy/Guitar/Guitar";
+import MusicProd from "./components/Academy/MusicProduction/MusicProd";
+import Piano from "./components/Academy/Piano/Piano";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/Mastering" element={<Mastering />} />
         <Route path="/Dj" element={<Dj />} />
         <Route path="/Bio" element={<Bio />} />
+        <Route path="/academy/guitar" element={<Guitar />} />
+        <Route path="/academy/piano" element={<Piano />} />
+        <Route path="/academy/music-production" element={<MusicProd />} />
       </Routes>
       <WhatsAppButton phoneNumber="+5491167688469" />
       <Footer />

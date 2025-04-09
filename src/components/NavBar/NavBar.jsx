@@ -1,7 +1,7 @@
-import "./NavBar.css";
-
 import React from "react";
 import { Link } from "react-router-dom";
+
+import "./NavBar.css";
 
 function NavBar() {
   return (
@@ -68,11 +68,16 @@ function NavBar() {
               <ul className="dropdown-menu">
                 <li>
                   <Link className="dropdown-item" to="/academy/guitar">
-                    Guitar
+                    <i class="fa-solid fa-guitar"></i> Guitar
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/academy/piano">
+                    <img
+                      className="ico"
+                      src="/public/media/Icons/piano.jpg"
+                      alt="Piano"
+                    />
                     Piano
                   </Link>
                 </li>
@@ -81,6 +86,11 @@ function NavBar() {
                     className="dropdown-item"
                     to="/academy/music-production"
                   >
+                    <img
+                      className="ico"
+                      src="/public/media/Icons/recording.png"
+                      alt="mic"
+                    />
                     Music Production - Recording
                   </Link>
                 </li>
